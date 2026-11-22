@@ -1,0 +1,60 @@
+indice,orden,estado_ap,pila,posicion,carga
+1,arriba,q0,Z,"(5, 1)",vacia
+2,arriba,q0,Z,"(4, 1)",vacia
+3,arriba,q0,Z,"(3, 1)",vacia
+4,derecha,q0,Z,"(3, 2)",vacia
+5,viaje,q1,Z,"(3, 2)",vacia
+6,izquierda,q1,RZ,"(3, 1)",vacia
+7,arriba,q1,DRZ,"(2, 1)",vacia
+8,arriba,q1,DDRZ,"(1, 1)",vacia
+9,agarrar,q2,DDRZ,"(1, 1)",con carga
+10,abajo,q2,DRZ,"(2, 1)",con carga
+11,abajo,q2,RZ,"(3, 1)",con carga
+12,derecha,q2,Z,"(3, 2)",con carga
+13,soltar,q3,Z,"(3, 2)",vacia
+14,finviaje,q4,Z,"(3, 2)",vacia
+15,abajo,q4,Z,"(4, 2)",vacia
+16,derecha,q4,Z,"(4, 3)",vacia
+17,viaje,q1,Z,"(4, 3)",vacia
+18,arriba,q1,DZ,"(3, 3)",vacia
+19,arriba,q1,DDZ,"(2, 3)",vacia
+20,agarrar,q2,DDZ,"(2, 3)",con carga
+21,abajo,q2,DZ,"(3, 3)",con carga
+22,abajo,q2,Z,"(4, 3)",con carga
+23,soltar,q3,Z,"(4, 3)",vacia
+24,finviaje,q4,Z,"(4, 3)",vacia
+25,derecha,q4,Z,"(4, 4)",vacia
+26,abajo,q4,Z,"(5, 4)",vacia
+27,viaje,q1,Z,"(5, 4)",vacia
+28,derecha,q1,LZ,"(5, 5)",vacia
+29,arriba,q1,DLZ,"(4, 5)",vacia
+30,arriba,q1,DDLZ,"(3, 5)",vacia
+31,arriba,q1,DDDLZ,"(2, 5)",vacia
+32,arriba,q1,DDDDLZ,"(1, 5)",vacia
+33,agarrar,q2,DDDDLZ,"(1, 5)",con carga
+34,abajo,q2,DDDLZ,"(2, 5)",con carga
+35,abajo,q2,DDLZ,"(3, 5)",con carga
+36,abajo,q2,DLZ,"(4, 5)",con carga
+37,abajo,q2,LZ,"(5, 5)",con carga
+38,izquierda,q2,Z,"(5, 4)",con carga
+39,soltar,q3,Z,"(5, 4)",vacia
+40,finviaje,q4,Z,"(5, 4)",vacia
+41,derecha,q4,Z,"(5, 5)",vacia
+42,abajo,q4,Z,"(6, 5)",vacia
+43,viaje,q1,Z,"(6, 5)",vacia
+44,derecha,q1,LZ,"(6, 6)",vacia
+45,arriba,q1,DLZ,"(5, 6)",vacia
+46,arriba,q1,DDLZ,"(4, 6)",vacia
+47,arriba,q1,DDDLZ,"(3, 6)",vacia
+48,agarrar,q2,DDDLZ,"(3, 6)",con carga
+49,abajo,q2,DDLZ,"(4, 6)",con carga
+50,abajo,q2,DLZ,"(5, 6)",con carga
+51,abajo,q2,LZ,"(6, 6)",con carga
+52,izquierda,q2,Z,"(6, 5)",con carga
+53,soltar,q3,Z,"(6, 5)",vacia
+54,finviaje,q4,Z,"(6, 5)",vacia
+55,izquierda,q4,Z,"(6, 4)",vacia
+56,izquierda,q4,Z,"(6, 3)",vacia
+57,izquierda,q4,Z,"(6, 2)",vacia
+58,izquierda,q4,Z,"(6, 1)",vacia
+59,λ,q5,Z,"(6, 1)",vacia

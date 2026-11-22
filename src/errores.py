@@ -18,3 +18,13 @@ class ErrorFisico(Exception):
         self.token = token
         self.motivo = motivo
         super().__init__(f"Error físico en token {indice} ('{token}'): {motivo}")
+
+
+class ErrorLexico(Exception):
+    def __init__(self, indice, token, linea, columna):
+        self.indice = indice
+        self.token = token
+        self.linea = linea
+        self.columna = columna
+        super().__init__(f"Error lexico en token {indice} (linea {linea}, palabra {columna }): "
+                         f"'{token}' no es una palabra reservada valida.")
